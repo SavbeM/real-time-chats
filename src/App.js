@@ -1,10 +1,12 @@
+
 import './App.css';
-import {Longpolling} from "./Longpolling";
+import React from "react";
+import {EventSourcing} from "./EventSourcing";
 
 function App() {
   return (
     <div className="App">
-      <Longpolling/>
+      <EventSourcing/>
     </div>
   );
 }
